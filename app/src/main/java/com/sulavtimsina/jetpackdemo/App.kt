@@ -1,4 +1,4 @@
-package com.sulavtimsina.giantbomb
+package com.sulavtimsina.jetpackdemo
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
