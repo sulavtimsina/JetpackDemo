@@ -1,9 +1,6 @@
 package com.sulavtimsina.jetpackdemo.di
 
 import com.sulavtimsina.jetpackdemo.data.remote.api.LaunchApi
-import com.sulavtimsina.jetpackdemo.data.remote.api.RocketApi
-import com.sulavtimsina.jetpackdemo.data.remote.model.Rocket
-import com.sulavtimsina.jetpackdemo.repository.RocketLaunchesRepository
 import com.sulavtimsina.jetpackdemo.util.BASE_URL
 import dagger.Module
 import dagger.Provides
