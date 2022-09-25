@@ -11,6 +11,7 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.sulavtimsina.jetpackdemo.R
 import com.sulavtimsina.jetpackdemo.data.remote.model.LaunchItem
 import com.sulavtimsina.jetpackdemo.databinding.FragmentItemListBinding
 import com.sulavtimsina.jetpackdemo.ui.adapter.RocketLaunchesAdapter
@@ -83,7 +84,7 @@ class ItemListFragment : Fragment() {
                 }
                 is Resource.Error->{
                     binding.progressBar!!.isVisible=false
-                    Toast.makeText(requireActivity(),"Something went wrong", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(requireActivity(),getString(R.string.error_message), Toast.LENGTH_SHORT).show()
                 }
             }
         }

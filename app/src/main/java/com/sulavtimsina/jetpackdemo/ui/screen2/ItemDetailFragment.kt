@@ -12,6 +12,7 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.navArgs
 import com.google.android.material.appbar.CollapsingToolbarLayout
+import com.sulavtimsina.jetpackdemo.R
 import com.sulavtimsina.jetpackdemo.databinding.FragmentItemDetailBinding
 import com.sulavtimsina.jetpackdemo.util.Resource
 import com.sulavtimsina.jetpackdemo.viewmodels.RocketLaunchesViewModel
@@ -77,7 +78,7 @@ class ItemDetailFragment : Fragment() {
                 }
                 is Resource.Error->{
                     binding.progressBar!!.isVisible=false
-                    Toast.makeText(requireActivity(),"Something went wrong", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(requireActivity(), R.string.error_message, Toast.LENGTH_SHORT).show()
                 }
             }
         }
