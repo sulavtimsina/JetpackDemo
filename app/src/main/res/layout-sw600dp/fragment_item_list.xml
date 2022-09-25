@@ -17,7 +17,7 @@
         app:layout_constraintEnd_toStartOf="@id/guideline"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:context="com.sulavtimsina.jetpackdemo.ui.screen1.ItemDetailHostActivity"
+        tools:context="com.sulavtimsina.jetpackdemo.ui.base.ItemDetailHostActivity"
         tools:listitem="@layout/item_list_content" />
 
     <androidx.constraintlayout.widget.Guideline
@@ -37,6 +37,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/guideline"
         app:layout_constraintTop_toTopOf="parent"
-        app:navGraph="@navigation/primary_details_sub_nav_graph" />
+        app:navGraph="@navigation/primary_details_nav_graph" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

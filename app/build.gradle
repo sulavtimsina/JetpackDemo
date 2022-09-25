@@ -94,4 +94,8 @@ dependencies {
 
     // Crash Activity
     implementation 'cat.ereza:customactivityoncrash:2.4.0'
+
+    implementation 'com.github.bumptech.glide:glide:4.13.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.2'
+
 }

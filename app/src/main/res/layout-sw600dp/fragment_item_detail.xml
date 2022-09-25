@@ -12,5 +12,5 @@
         android:layout_height="match_parent"
         android:padding="16dp"
         android:textIsSelectable="true"
-        tools:context="com.sulavtimsina.jetpackdemo.ui.screen1.ItemDetailFragment" />
+        tools:context="com.sulavtimsina.jetpackdemo.ui.screen2.ItemDetailFragment" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

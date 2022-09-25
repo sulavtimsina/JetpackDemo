@@ -1,4 +1,4 @@
-package com.sulavtimsina.jetpackdemo.ui.screen1
+package com.sulavtimsina.jetpackdemo.ui.base
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -9,7 +9,9 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import com.sulavtimsina.jetpackdemo.R
 import com.sulavtimsina.jetpackdemo.databinding.ActivityItemDetailBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class ItemDetailHostActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
